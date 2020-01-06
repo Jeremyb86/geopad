@@ -17,7 +17,6 @@
 get_header();
 ?>
 <?php global $post; ?>
-
 	<section id="primary" class="content-area actualites">
 			<?php 
 			global $post;
@@ -66,6 +65,23 @@ get_header();
 			</div>
 		</div>
 	</section><!-- .content-area -->
+	<link href="https://fonts.googleapis.com/css?family=Mukta&display=swap" rel="stylesheet">
+	<div class="box1">
+		<blockquote></blockquote>
+		<div class="col1">
+		<img src="wp-includes/images/geopad/localisation_2.png"><br>
+			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia quas dolorem repudiandae reiciendis molestias adipisci esse nisi doloribus aperiam vero minima expedita, officiis amet, iusto, similique incidunt enim possimus laboriosam.
+		</div>
+		<div class="col2">
+		<img src="wp-includes/images/geopad/timer.png"><br>
+			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, excepturi aliquam a quia accusantium deserunt, porro iure illum aperiam sunt velit non, doloremque tempore explicabo delectus alias repellat itaque? Ipsam.
+		</div>
+		<div class="col3">
+		<img src="wp-includes/images/geopad/formulaire.png"><br>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero pariatur nesciunt magni distinctio tempora aliquam, fugit qui voluptas eaque corrupti a ut vel soluta mollitia esse quisquam, ad, aut dignissimos!
+		</div>
+		
+	</div>
 
 <?php
 get_footer();
