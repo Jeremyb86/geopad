@@ -66,21 +66,32 @@ get_header();
 		</div>
 	</section><!-- .content-area -->
 	<link href="https://fonts.googleapis.com/css?family=Mukta&display=swap" rel="stylesheet">
-	<div class="box1">
-		<blockquote></blockquote>
-		<div class="col1">
-		<img src="wp-includes/images/geopad/localisation_2.png"><br>
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia quas dolorem repudiandae reiciendis molestias adipisci esse nisi doloribus aperiam vero minima expedita, officiis amet, iusto, similique incidunt enim possimus laboriosam.
+	<div class="box_container">
+		<div class="box1">
+			<blockquote></blockquote>
+			<div class="col1">
+				<img src="wp-includes/images/geopad/localisation_2.png"><br>
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia quas dolorem repudiandae reiciendis molestias adipisci esse nisi doloribus aperiam vero minima expedita, officiis amet, iusto, similique incidunt enim possimus laboriosam.
+			</div>
+			<div class="col2">
+				<img src="wp-includes/images/geopad/timer.png"><br>
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, excepturi aliquam a quia accusantium deserunt, porro iure illum aperiam sunt velit non, doloremque tempore explicabo delectus alias repellat itaque? Ipsam.
+			</div>
+			<div class="col3">
+				<img src="wp-includes/images/geopad/formulaire.png"><br>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero pariatur nesciunt magni distinctio tempora aliquam, fugit qui voluptas eaque corrupti a ut vel soluta mollitia esse quisquam, ad, aut dignissimos!
+			</div>
 		</div>
-		<div class="col2">
-		<img src="wp-includes/images/geopad/timer.png"><br>
-			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, excepturi aliquam a quia accusantium deserunt, porro iure illum aperiam sunt velit non, doloremque tempore explicabo delectus alias repellat itaque? Ipsam.
+		<div class="box_left">
+			<blockquote></blockquote>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero pariatur nesciunt magni distinctio tempora aliquam, fugit qui voluptas eaque corrupti a ut vel soluta mollitia esse quisquam, ad, aut dignissimos!
+				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus molestiae praesentium dolores obcaecati amet illum delectus nobis quod voluptatibus tempora nemo, quas esse et eum. Quae dicta pariatur eaque? Ipsa?
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. In, perspiciatis obcaecati debitis quia aspernatur quam quos. Tempore distinctio laboriosam optio iusto sapiente pariatur nostrum fuga, consectetur necessitatibus consequuntur veritatis assumenda.
 		</div>
-		<div class="col3">
-		<img src="wp-includes/images/geopad/formulaire.png"><br>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero pariatur nesciunt magni distinctio tempora aliquam, fugit qui voluptas eaque corrupti a ut vel soluta mollitia esse quisquam, ad, aut dignissimos!
+		<div class="box_right">
+			<blockquote></blockquote>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero pariatur nesciunt magni distinctio tempora aliquam, fugit qui voluptas eaque corrupti a ut vel soluta mollitia esse quisquam, ad, aut dignissimos!
 		</div>
-		
 	</div>
 
 <?php
