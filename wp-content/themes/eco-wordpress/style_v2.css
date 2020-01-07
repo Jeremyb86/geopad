@@ -541,65 +541,27 @@
   /* FOOTER */
   
   footer{
-	  background-color: white;
-	  padding:1.5em 0;
-	  text-align:center;
-	  position: relative;
+	  bottom: 0;
+	  background-color: rgb(0, 0, 0);
 	  z-index: 1000;
+	  width: 100%;
   }
-  footer > .col{
-	  text-align:left;
-	  width:31%;
-	  display:inline-block;
-	  height:100%;
-	  vertical-align:middle;
+  .footer_left a {
+	color: #F8F8F8;
+	font-family: 'Mukta';
+	line-height: 140%;
   }
-  footer > .col:nth-child(2){
-	  border-left:1px solid #dfdfdf;
-	  border-right: 1px solid #dfdfdf;
-  }
-  footer .col > *{
-	  display:inline-block;
-	  vertical-align:middle;
-  }
-  footer .brand-container{
-	  margin-bottom:1em;
-	  display:inline-block;
-	  width:45%;
-  }
-  footer .coords{
-	  margin-left:5%;
-  }
-  footer .col-mid{
-	  text-align:left;
-	  padding:20px;
-	  box-sizing:border-box;
-  }
-  footer .col-mid div{
-	  text-align:left;
-	  margin:-1px;
-  }
-  footer .col-mid .socials{
-	  float:right;
-  }
-  footer .col-right{
-	  text-align:center;
-  }
-  footer .col-right img{
-	  height:80px;
-	  width:unset;
-	  opacity:0.3;
-	  display:inline-block;
-  }
-  .after-footer{
-	  background-color:white;
-	  text-align:center;
+  .footer_left{
+	  color: #F8F8F8;
 	  position: relative;
-	  z-index: 100;
-  }
-  .after-footer p{
-	  margin:0;
-	  padding:0.75em;
+	  display: inline-block;
+	  text-align: left;
+	  width: auto;
+	  padding-left: 250px;
+	  padding-top: 20px;
+	  padding-bottom: 20px;
+	  font-family: 'Mukta';
+	  line-height: 140%;
   }
   
   /* XX. RESPONSIVE */

@@ -1,13 +1,10 @@
 			<!-- footer -->
-			<footer class="footer" role="contentinfo">
-
+			<footer>
+				<div class="footer_left">
+					© 2020 Geopad - <a href="#">Politique de confidentialité</a> | <a href="#">Conditions d'utilisation</a> | <a href="#">Contact</a>
+				</div>
 			</footer>
-			<div class="after-footer">
-				<p>© 2008 - 2019 Le Gâvre Portails - <a href="https://legavreportails.com/?page_id=361">Mentions légales</a></p>
-			</div>
 			<!-- /footer -->
-
-		</div>
 		<!-- /wrapper -->
 		<script type="text/javascript">
 			document.getElementById('toggleSidebar').addEventListener('click', function(e){
