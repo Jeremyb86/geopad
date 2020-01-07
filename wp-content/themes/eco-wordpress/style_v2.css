@@ -49,6 +49,37 @@
   }
   header{
 	  overflow-x:hidden;
+	  height: 650px;
+	  background-image: url(http://localhost/Geopad/wp-content/uploads/2020/01/fond.png);
+	  background-repeat: no-repeat;
+	  background-position: center;
+	  background-size: cover;
+	  background-attachment: fixed;
+  }
+	header img {
+	  width: 15%;
+  }
+  .nav_top img {
+	  left: 0;
+  }
+  .nav_center {
+	width: 750px;
+	margin-left: 250px;
+	margin-right: 250px;
+	margin-top: 150px;
+	font-size: 40px;
+	color: #F8F8F8;
+	font-family: 'Mukta';
+	font-weight: 900; 
+	font-style: normal;
+	line-height: 140%;
+  }
+  .nav_top {
+	  width: 100%;
+	  margin-left: 250px;
+	  margin-right: 250px;
+	  margin-top: 50px;
+	  vertical-align: center;
   }
   h1, h2, h3, h4, h5, h6{
 	  margin:0;

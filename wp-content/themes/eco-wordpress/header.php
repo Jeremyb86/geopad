@@ -21,11 +21,16 @@
 </head>
 <body>
 	<header role="banner">
-
-		<button id="toggleSidebar">
+		<!-- <button id="toggleSidebar">
 			<span class="" aria-hidden="true"></span>
 		</button>
 		<nav id="nav-wrapper" role="navigation">
 			<?php wp_nav_menu(); ?>
-		</nav>
+		</nav> -->
+		<div class="nav_top">
+		<img src="http://localhost/Geopad/wp-content/uploads/2020/01/logo_blanc.png">
+		</div>
+		<div class="nav_center">
+		Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+		</div>
 	</header>
