@@ -22,16 +22,16 @@
 define( 'DB_NAME', 'geopad' );
 
 /** Utilisateur de la base de données MySQL. */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'geopad' );
 
 /** Mot de passe de la base de données MySQL. */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'geopad4949!' );
 
 /** Adresse de l’hébergement MySQL. */
-define( 'DB_HOST', 'localhost:3307' );
+define( 'DB_HOST', 'db4free.net' );
 
 /** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
-define( 'DB_CHARSET', 'utf8mb4' );
+define( 'DB_CHARSET', 'utf8_general_ci' );
 
 /** Type de collation de la base de données.
   * N’y touchez que si vous savez ce que vous faites.
