@@ -1,4 +1,7 @@
 			<!-- footer -->
+			<div id="scrollUp">
+				<a href="#top"><img src="http://localhost/Geopad/wp-content/uploads/2020/01/overlay.png"/></a>
+			</div>
 			<footer>
 				<div class="footer_left">
 					© 2020 Geopad - <a href="#">Politique de confidentialité</a> | <a href="#">Conditions d'utilisation</a> | <a href="#">Contact</a>
@@ -24,6 +27,21 @@
 		  gtag('js', new Date());
 
 		  gtag('config', 'UA-136040519-1');
+		</script>
+		<!-- Script bouton remonter page -->
+		<script>
+			jQuery(function(){
+			$(function () {
+			$(window).scroll(function () {
+			if ($(this).scrollTop() > 300 ) { 
+			$('#scrollUp').css('right','80px');
+			} else { 
+			$('#scrollUp').removeAttr( 'style' );
+			}
+			
+			});
+			});
+			});
 		</script>
 	</body>
 </html>

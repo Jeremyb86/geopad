@@ -16,6 +16,7 @@
 
 	<link  href="<?php echo get_template_directory_uri() ?>/js/viewer.js/viewer.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Mukta&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 
 	<?php wp_head(); ?>
 </head>
