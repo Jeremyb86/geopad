@@ -28,9 +28,27 @@
 			<?php wp_nav_menu(); ?>
 		</nav> -->
 		<div class="nav_top">
-		<img src="http://localhost/Geopad/wp-content/uploads/2020/01/logo_blanc.png">
+			<img src="http://localhost/Geopad/wp-content/uploads/2020/01/logo_blanc.png">
+			<div class="nav_top_right"><form name="connexion" method="post" action="/wp-admin">
+                <input type="submit" name="valider" class="connexion" value="Connexion" />
+            </form></div>
 		</div>
 		<div class="nav_center">
-		Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+			Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+		</div>
+		<div class="box_recherche">
+			<h3>Rechercher</h3>
+			<form name="contact" method="post" action="contact.php">
+                                <div class="form-group">
+                                    <input type="text" id="localisation" name="localisation" class="form-control" placeholder="Où êtes vous ?" value="" />
+                                </div>
+                                <div class="form-left">
+                                    <input type="datetime" id="date" name="date" class="form-control" placeholder="Date & heure" value="" />
+                                </div>
+                                <div class="form-right">
+                                    <input type="text" id="service" name="service" class="form-control" placeholder="Service" value="" />
+                                </div>
+                                <input type="submit" name="valider" class="btnContact" value="Rechercher" />
+            </form>
 		</div>
 	</header>

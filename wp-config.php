@@ -31,7 +31,7 @@ define( 'DB_PASSWORD', 'geopad4949!' );
 define( 'DB_HOST', 'db4free.net' );
 
 /** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
-define( 'DB_CHARSET', 'utf8_general_ci' );
+define( 'DB_CHARSET', 'utf8' );
 
 /** Type de collation de la base de données.
   * N’y touchez que si vous savez ce que vous faites.
