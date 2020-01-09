@@ -16,11 +16,12 @@
 
 	<link  href="<?php echo get_template_directory_uri() ?>/js/viewer.js/viewer.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Mukta&display=swap" rel="stylesheet">
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	<script src="http://code.jquery.com/jquery-3.1.0.slim.min.js"></script>
 
 	<?php wp_head(); ?>
 </head>
 <body>
+	<div class="page-wrapper">
 	<header role="banner">
 		<!-- <button id="toggleSidebar">
 			<span class="" aria-hidden="true"></span>
@@ -29,10 +30,10 @@
 			<?php wp_nav_menu(); ?>
 		</nav> -->
 		<div class="nav_top">
-			<img src="http://localhost/Geopad/wp-content/uploads/2020/01/logo_blanc.png">
-			<div class="nav_top_right"><form name="connexion" method="post" action="/wp-admin">
-                <input type="submit" name="valider" class="connexion" value="Connexion" />
-            </form></div>
+			<img src="/geopad/wp-content/uploads/2020/01/logo_blanc.png">
+			<div class="nav_top_right">
+				<button type="button" class="trigger" id="connexion">Connexion</button>
+			</div>
 		</div>
 		<div class="nav_center">
 			Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -40,16 +41,16 @@
 		<div class="box_recherche">
 			<h3>Rechercher</h3>
 			<form name="contact" method="post" action="contact.php">
-                                <div class="form-group">
-                                    <input type="text" id="localisation" name="localisation" class="form-control" placeholder="Où êtes vous ?" value="" />
-                                </div>
-                                <div class="form-left">
-                                    <input type="datetime" id="date" name="date" class="form-control" placeholder="Date & heure" value="" />
-                                </div>
-                                <div class="form-right">
-                                    <input type="text" id="service" name="service" class="form-control" placeholder="Service" value="" />
-                                </div>
-                                <input type="submit" name="valider" class="btnContact" value="Rechercher" />
+				<div class="form-group">
+					<input type="text" id="localisation" name="localisation" class="form-control" placeholder="Où êtes vous ?" value="" />
+				</div>
+				<div class="form-left">
+					<input type="datetime" id="date" name="date" class="form-control" placeholder="Date & heure" value="" />
+				</div>
+				<div class="form-right">
+					<input type="text" id="service" name="service" class="form-control" placeholder="Service" value="" />
+				</div>
+				<input type="submit" name="valider" class="btnContact" value="Rechercher" />
             </form>
 		</div>
 	</header>

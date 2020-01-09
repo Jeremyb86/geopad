@@ -76,7 +76,7 @@
   header{
 	  overflow-x:hidden;
 	  height: 650px;
-	  background-image: url(http://localhost/Geopad/wp-content/uploads/2020/01/fond.png);
+	  background-image: url(/Geopad/wp-content/uploads/2020/01/fond.png);
 	  background-repeat: no-repeat;
 	  background-position: center;
 	  background-size: cover;
@@ -94,8 +94,8 @@
 	margin-top: 50px;
 }
   .nav_top_right {
+	width: 200px;
 	float: right;
-	width: 10%;
 }
   .nav_center {
 	width: 750px;
@@ -601,6 +601,26 @@
 	  font-family: 'Mukta';
 	  line-height: 140%;
   }
+  .footer_img {
+	display: inline-block;
+	position: relative;
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+	margin-left: 20px;
+  }
+  .footer_right{
+	  color: #F8F8F8;
+	  position: relative;
+	  display: inline-block;
+	  float: right;
+	  padding-right: 250px;
+	  padding-top: 18px;
+	  text-align: right;
+	  width: auto;
+	  font-family: 'Mukta';
+	  line-height: 140%;
+  }
   
   /* XX. RESPONSIVE */
   
@@ -1101,17 +1121,19 @@
 }
 .btnContact {
 	margin-top: 10px;
-    width: 47%;
+	width: 47%;
+	height: 35px;
     border: none;
     border-radius: 1rem;
     padding: 1.5%;
     background: linear-gradient(#A69FFB, #7A73F8);
 	color: rgb(255, 255, 255);
 	font-weight: 600;
+	font-size: 18px;
 	outline:none;
 }
 #localisation {
-	background-image: url(http://localhost/Geopad/wp-content/uploads/2020/01/localisation_1.png);
+	background-image: url(/Geopad/wp-content/uploads/2020/01/localisation_1.png);
 	background-position: 7px 7px;
 	background-repeat: no-repeat;
 	background-size: 20px;
@@ -1119,7 +1141,7 @@
 	background-origin: content-box;
 }
 #date {
-	background-image: url(http://localhost/Geopad/wp-content/uploads/2020/01/planning.png);
+	background-image: url(/Geopad/wp-content/uploads/2020/01/planning.png);
 	background-position: 7px 7px;
 	background-repeat: no-repeat;
 	background-size: 20px;
@@ -1127,14 +1149,14 @@
 	background-origin: content-box;
 }
 #service {
-	background-image: url(http://localhost/Geopad/wp-content/uploads/2020/01/recherche.png);
+	background-image: url(/Geopad/wp-content/uploads/2020/01/recherche.png);
 	background-position: 7px 7px;
 	background-repeat: no-repeat;
 	background-size: 20px;
 	background-position: right;
 	background-origin: content-box;
 }
-.connexion {
+#connexion {
 	width: 200px;
 	height: 40px;
     border: none;
@@ -1144,6 +1166,10 @@
 	font-weight: 600;
 	font-size: 20px;
 	outline:none;
+	text-align: center;
+}
+#connexion a{
+	color: rgb(255, 255, 255);
 }
 #scrollUp
 {
@@ -1156,4 +1182,101 @@
 	border-radius:50%;
 	border:1px solid #d8d8d8;
 	box-shadow: 0 4px 2px -2px rgb(153, 153, 153);
+}
+/* Bouton connexion */
+.blur-it {
+	-webkit-filter: blur(4px);
+	filter: blur(4px);
+  }
+  .modal-wrapper {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(255, 255, 255, 0.137);
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+  }
+  
+  .modal-wrapper.open {
+	opacity: 1;
+	visibility: visible;
+  }
+  
+  .modal {
+	width: 400px;
+	height: 500px;
+	display: block;
+	margin: 50% 0 0 -200px;
+	position: relative;
+	top: 40%;
+	left: 50%;
+	background: #fff;
+	border-radius: 20px;
+	opacity: 0;
+	-webkit-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+  }
+  
+  .modal-wrapper.open .modal {
+	margin-top: -200px;
+	opacity: 1;
+  }
+  
+  .head {
+	width:100%;
+	height:130px;
+	overflow: hidden;
+	background-image: url(/Geopad/wp-content/uploads/2020/01/logo_violet.png);
+	background-repeat: no-repeat;
+	background-size: 200px;
+	background-position: center;
+  }
+  
+  .btn-close {
+	font-size: 28px;
+	display: inline-block;
+	padding-right: 15px;
+	padding-top: 15px;
+	float: right;
+	color: #9A93FA;
+  }
+  
+  .content { 
+	padding-top: 3%;
+	padding-left: 10%; 
+	padding-right: 10%; 
+	padding-bottom: 10%;  
+}
+  .form-control-login{
+	display:block;
+	width:100%;
+	padding:.375rem .75rem;
+	font-size:1rem;
+	line-height:1.5;
+	color:#747679;
+	background-color:#fff;
+	background-clip:padding-box;
+	border:1px solid #a7a7a7;
+	border-radius:20px;
+	transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	outline:none;
+	box-shadow: 0 4px 2px -2px rgb(196, 196, 196);
+}
+.btnLogin {
+	position: relative;
+	width: 150px;
+	height: 35px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(#A69FFB, #7A73F8);
+	color: rgb(255, 255, 255);
+	font-weight: 600;
+	font-size: 15px;
+	outline:none;
+	text-align: center;
+	float: right;
 }
