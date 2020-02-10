@@ -35,7 +35,7 @@
   {
 	  width: 10px;
 	  background-color: #F5F5F5;
-  }
+	 }
   
   ::-webkit-scrollbar-thumb
   {
@@ -63,16 +63,12 @@
   }
   
   body{
-	  min-width:260px;
 	  margin:0;
-	  font-family: century-gothic;
-	  font-style: normal;
 	  font-weight: 400;
 	  background-color:white;
 	  color:black;
-	  overflow-x: hidden;
 	  position: absolute;
-  }
+	 }
   header{
 	  overflow-x:hidden;
 	  height: 650px;
@@ -88,6 +84,7 @@
   .nav_top img {
 	float: left;
   }
+
   .nav_top {
 	margin-left: 250px;
 	margin-right: 250px;
@@ -96,6 +93,7 @@
   .nav_top_right {
 	width: 200px;
 	float: right;
+
 }
   .nav_center {
 	width: 750px;
@@ -583,7 +581,7 @@
 	  background-color: rgb(0, 0, 0);
 	  z-index: 1000;
 	  width: 100%;
-  }
+	 }
   .footer_left a {
 	color: #F8F8F8;
 	font-family: 'Mukta';
@@ -600,7 +598,7 @@
 	  padding-bottom: 20px;
 	  font-family: 'Mukta';
 	  line-height: 140%;
-  }
+	 }
   .footer_img {
 	display: inline-block;
 	position: relative;
@@ -620,7 +618,7 @@
 	  width: auto;
 	  font-family: 'Mukta';
 	  line-height: 140%;
-  }
+	 }
   
   /* XX. RESPONSIVE */
   
@@ -942,16 +940,12 @@
 	font-style: normal;
 	position: relative;
   }
-.box1 blockquote:before{
-	display: inline-block;
-	position: absolute;
-	top: -70px;
-	left: 0;
+.titre-accueil1{
+	margin-top:-53px;
 	text-align: center;
-	content: "Pourquoi nous choisir ?";
 	font-size: 40px;
 	color: #9A93FA;
-	width: 100%;
+	font-family: 'Mukta';
 }
 .col1 {
 	display: inline-block;
@@ -1012,24 +1006,21 @@
 	color:#2D2D2D;
 	font-family: 'Mukta';
 	line-height: 140%;
-  }
+	}
 .box_left blockquote {
 	font-family: 'Mukta';
 	font-weight: 900; 
 	font-style: normal;
 	position: relative;
   }
-.box_left blockquote:before{
-	display: inline-block;
-	position: absolute;
-	top: -50px;
-	left: 0;
+.titre-accueil2{
+	margin-top:-35px;
 	text-align: left;
-	content: "Qui sommes-nous ?";
 	font-size: 40px;
 	color: #9A93FA;
-	width: 100%;
-	left: -50px;
+	font-family: 'Mukta';
+	font-weight: bold;
+
 }
 .box_right blockquote {
 	font-family: 'Mukta';
@@ -1037,17 +1028,7 @@
 	font-style: normal;
 	position: relative;
   }
-.box_right blockquote:before{
-	display: inline-block;
-	position: absolute;
-	top: -50px;
-	left: -50px;
-	text-align: left;
-	content: "Nos Actualités";
-	font-size: 40px;
-	color: #9A93FA;
-	width: 100%;
-}
+
 /* Formulaire */
 .form-left{
 	margin-top:10px;
@@ -1176,6 +1157,7 @@
 	position: fixed;
 	transition: all 0.4s ease;
 	bottom : 80px;
+	background-color: white ;
 	right: -100px;
 	width:45px;
 	height:45px;
@@ -1208,17 +1190,20 @@
   
   .modal {
 	width: 400px;
-	height: 500px;
+	height: auto;
 	display: block;
 	margin: 50% 0 0 -200px;
 	position: relative;
-	top: 40%;
+	top: 35%;
 	left: 50%;
 	background: #fff;
 	border-radius: 20px;
 	opacity: 0;
 	-webkit-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
+	font-family: '';
+		font-family: 'Mukta';
+
   }
   
   .modal-wrapper.open .modal {
@@ -1280,3 +1265,114 @@
 	text-align: center;
 	float: right;
 }
+
+  @media(max-width:1100px){
+  
+  .nav_center {
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 250px;
+    text-align: center;
+
+  }
+   .box_recherche {
+	  width: auto !important;
+	  margin-left: 0% !important;
+	  margin-right: 0% !important;
+	  margin-top: 0 !important;
+	  padding-right: 2% !important;
+	  
+
+  }
+  .box_recherche h3 {
+	font-size: 20px;
+	color: #F8F8F8;
+	font-family: 'Mukta';
+	line-height: 140%;
+	padding-left: 10px;
+	padding-bottom: 5px;
+}
+
+#connexion {
+	font-size: 18px;
+}
+  .nav_top_right {
+	width: 00px;
+}
+	header img {
+	  width: 40%;
+  }
+    .nav_top {
+	margin-left: 2%;
+	margin-top: 55px;
+}
+.box_container {
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 5%;
+}
+
+.box1 {
+	padding: 20px;
+  }
+
+.col1 {
+	display: block;
+	width: 100%;
+}
+
+.col1 img{
+	width: 10%;
+}
+.col2 {
+	display: block;
+	width: 100%;
+}
+.col2 img{
+	width: 10%;
+}
+.col3 {
+	display: block;
+	width: 100%;
+}
+.col3 img{
+	width: 10%;
+}
+
+.box_left {
+	display: block;
+	width: auto;
+  }
+  .box_right {
+	display: block;
+	width: auto;
+	float: none;
+	}
+.footer_right{
+	float: none;
+	padding-right: 0;
+}
+.footer_left{
+padding-left: 2%
+
+}
+
+  }
+  @media(max-width:500px){
+header img{
+	width: 80%
+}
+.col1 img{
+	width: 30%;
+}
+
+.col2 img{
+	width: 30%;
+}
+
+.col3 img{
+	width: 30%;
+}
+
+  }
