@@ -19,16 +19,16 @@
 
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
-define( 'DB_NAME', 'geopad' );
+define( 'DB_NAME', 'jeremyb86_geopad' );
 
 /** Utilisateur de la base de données MySQL. */
-define( 'DB_USER', 'geopad' );
+define( 'DB_USER', 'jeremyb86' );
 
 /** Mot de passe de la base de données MySQL. */
 define( 'DB_PASSWORD', 'geopad4949!' );
 
 /** Adresse de l’hébergement MySQL. */
-define( 'DB_HOST', 'db4free.net' );
+define( 'DB_HOST', 'mysql-jeremyb86.alwaysdata.net' );
 
 /** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
 define( 'DB_CHARSET', 'utf8' );
